@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<!-- - Exercici 2
+Millora l’exercici anterior fent que es guardi l’username en una variable de sessió. 
+S’haurà de mostrar l’username per pantalla mitjançant l’accés a aquesta variable de sessió. -->
+
+<head>
+    <title>HTML Form</title>
+</head>
+
+<body>
+
+    <p>Introduce your name, age, email and reason for emailing us!</p>
+
+    <form method="post" action="Exercici2.php">
+
+        <input type="text" name="name" placeholder="Name" required>
+        <br></br>
+        <input type="number" name="age" placeholder="Age" min="1" max="100" required>
+        <br></br>
+        <input type="email" name="email" placeholder="e-mail" required>
+        <br></br>
+        <input type="text" name="subject" placeholder="subject" required>
+        <br></br>
+        <textarea id="message" name="message" rows="3" cols="30" placeholder="I like coding..."></textarea>
+        <br></br>
+
+        <button type="submit">Submit!</button>
+
+    </form>
+
+</body>
+</html>
